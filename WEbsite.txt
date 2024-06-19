@@ -1,0 +1,87 @@
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Page -->
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to My Website</h2>
+            <p>This is the home page. Here you will find links to the most important and popular pages.</p>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories">
+            <h2>Categories</h2>
+            <div class="category">
+                <h3>Category 1</h3>
+                <ul>
+                    <li><a href="#subcategory1">Subcategory 1</a></li>
+                    <li><a href="#subcategory2">Subcategory 2</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Category 2</h3>
+                <ul>
+                    <li><a href="#subcategory3">Subcategory 3</a></li>
+                    <li><a href="#subcategory4">Subcategory 4</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Subcategories and Individual Posts Section -->
+        <section id="subcategory1">
+            <h2>Subcategory 1</h2>
+            <article>
+                <h3>Post 1</h3>
+                <p>This is the content of the first post in Subcategory 1.</p>
+            </article>
+            <article>
+                <h3>Post 2</h3>
+                <p>This is the content of the second post in Subcategory 1.</p>
+            </article>
+        </section>
+
+        <section id="subcategory2">
+            <h2>Subcategory 2</h2>
+            <article>
+                <h3>Post 1</h3>
+                <p>This is the content of the first post in Subcategory 2.</p>
+            </article>
+            <article>
+                <h3>Post 2</h3>
+                <p>This is the content of the second post in Subcategory 2.</p>
+            </article>
+        </section>
+        
+        <!-- Additional sections for other subcategories and posts -->
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Information about the website and its purpose.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Contact information and form.</p>
+        </section>
+    </main>
+
+</body>
+</html>

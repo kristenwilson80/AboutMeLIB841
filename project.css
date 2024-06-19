@@ -1,0 +1,75 @@
+﻿body {
+    background-image: url('picts/background.webp');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Ensures the background image stays fixed */
+    margin: 30px; /* Adds margin around the body */
+    height: 100vh; /* Ensures the body takes full viewport height */
+    opacity: 1;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: teal;
+	margin: 20px 10px 10px 20px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 25px; /* Enlarge the text size */
+    font-weight: normal;
+    margin: 15px 15px 15px 15px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: teal;
+}
+
+/* Apply styles to the image */
+.float-left {
+    float: left; /* Float the image to the right */
+    margin: 10px 10px 10px 10px; /* Adjust margin for spacing around the image */
+}
+
+/* Horizontal Menu Styles */
+#menudiv {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    justify-content: center; /* Center the menu horizontally */
+    padding: 0;
+    margin: 30px 0; /* Add vertical margin */
+    list-style: none; /* Remove default list styles */
+    gap: 30px; /* Space between menu items */
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    list-style: none; /* Remove default list item styles */
+}
+
+.menu a {
+    text-decoration: none; /* Remove underline from links */
+    color: teal; /* Link color */
+    padding: 20px 40px; /* Increase padding around link for a larger clickable area */
+    display: block; /* Make the entire area clickable */
+    font-family: 'Brush Script MT', cursive; /* Apply Brush Script font */
+    font-size: 30px; /* Increase the text size */
+}
+
+.menu a:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+    color: #333; /* Text color on hover */
+}
